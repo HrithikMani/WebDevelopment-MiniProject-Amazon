@@ -1,0 +1,47 @@
+
+.bxt{margin-right: 5px;
+    color: white;
+    font-weight: 500;
+}
+.mainLogo{
+    max-height: 60px;
+}
+
+.topBar{
+    background-color: rgb(35,52,72);
+}
+.bord{
+    border: 2px solid grey;
+}
+.searchB{
+    width: 60%;
+    margin:0 auto;
+}
+.gold{
+    color: rgb(255, 230, 128);
+}
+a{
+    color: black;
+}
+.desc{
+    color: black;
+    font-weight: 500;
+}
+.desc:hover{
+    color: blue;
+    
+}
+#cart{
+    height: 60px; 
+    margin-top:20px;
+    cursor: pointer;
+}
+.card .list-group-item{
+    cursor: pointer;
+}
+.btO{
+    color:black;
+}
+.loggedDrop::after{
+    display: none;
+}

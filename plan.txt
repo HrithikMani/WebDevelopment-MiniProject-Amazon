@@ -1,0 +1,76 @@
+homePage 
+    -> logo -> at right corner
+    ->nav section -> Electronics, Fashiion, books , grocery
+    -> login section
+
+Electronics -> laptops, gaming console,pc components
+Fashion -> men,women,kids
+books -> novels,educative
+grocery -> Food, Dairy,fruits&vegetables
+
+every product has 3 layers of ineritence
+
+product has maincatogary, sub catogaries, type
+
+home page -> ads and random product listings
+individual section page -> filter,catogaries, items
+
+
+home 
+
+if search
+
+payment
+
+
+
+if reviews
+
+
+
+
+
+
+
+
+order page:
+
+Logic -> 
+
+Register ->
+
+
+admin -> login -> add products-> name,desc,price,category,stock ,image 
+                                                    |
+                                                    catId
+
+                add Categories -> Existing categories, add Category form
+
+
+plan:
+complete by 12 tmrw ->  login, admin,home ,checkout,
+
+
+filter,search,review !done  
+
+
+
+deals -> 
+    Electronics 4
+
+
+    Electronics > 5 40%
+    Fashion > 5 50%
+
+
+
+
+
+deals 
+
+        dealid disc 
+
+
+        dealcats
+            dealid category noitems
+            dealid category
