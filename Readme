@@ -1,10 +1,68 @@
-Please check the link below
+E-Commerce Website Project
+==========================
 
-https://amzmini.000webhostapp.com/home.php
+This project is an e-commerce website built using PHP, jQuery, and Bootstrap. The following instructions will help you deploy and run the application on your local machine using XAMPP.
 
+Prerequisites
+-------------
 
-This is my college mini project. A ecomerce website written using 
-->Bootstrap
-->Jquery
--> php
--> Mysql
+Before you begin, ensure you have met the following requirements:
+
+*   You have installed XAMPP on your local machine.
+*   You have a basic understanding of PHP, MySQL, and web development.
+
+Installation
+------------
+
+To get a local copy up and running, follow these simple steps.
+
+### 1\. Clone the repository
+
+First, clone the repository to your local machine using the following command:
+
+bash
+
+Copy code
+
+`git clone https://github.com/your-username/your-repo-name.git`
+
+### 2\. Move project files to XAMPP directory
+
+Move the cloned project files to the `htdocs` directory of your XAMPP installation. This is typically found at:
+
+bash
+
+Copy code
+
+`C:\xampp\htdocs\`
+
+### 3\. Start XAMPP
+
+Open the XAMPP Control Panel and start the following services:
+
+*   Apache
+*   MySQL
+
+### 4\. Create a Database
+
+1.  Open your web browser and go to phpMyAdmin.
+2.  Create a new database. You can name it `amazon` or any name of your choice.
+
+### 5\. Import the SQL file
+
+1.  With the new database selected, go to the Import tab.
+2.  Click on Choose File and select the `amazon.sql` file from the `sql` folder of your project directory.
+3.  Click Go to import the database structure and data.
+
+### 6\. Access the Application
+
+Open your web browser and go to:
+
+url
+
+Copy code
+
+`http://localhost/your-project-folder`
+
+Replace `your-project-folder` with the name of the folder where your project resides within the `htdocs` directory.
+
